@@ -1,0 +1,31 @@
+{
+  "name": "hackmyip",
+  "version": "1.0.0",
+  "description": "Free API client for IP lookup, email breach checking, and privacy scoring. No API key required.",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "keywords": [
+    "ip",
+    "ip-address",
+    "geolocation",
+    "privacy",
+    "breach",
+    "email-breach",
+    "dns-leak",
+    "vpn",
+    "security",
+    "fingerprint",
+    "hackmyip"
+  ],
+  "author": "HackMyIP <hello@hackmyip.com>",
+  "license": "MIT",
+  "homepage": "https://hackmyip.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackmyip/hackmyip-js"
+  },
+  "bugs": {
+    "url": "https://github.com/hackmyip/hackmyip-js/issues"
+  }
+}
