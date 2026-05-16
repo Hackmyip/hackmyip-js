@@ -7,13 +7,13 @@
 <h1 align="center">HackMyIP</h1>
 
 <p align="center">
-  <strong>35+ free privacy & network tools in one place. No signup. No API key.</strong>
+  <strong>35 free privacy & network tools in one place. No signup. No API key.</strong>
 </p>
 
 <p align="center">
   <a href="https://hackmyip.com">Website</a> ·
   <a href="https://hackmyip.com/api">API Docs</a> ·
-  <a href="#api">API Docs</a>
+  <a href="https://www.npmjs.com/package/hackmyip">npm</a>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 
 ## What is HackMyIP?
 
-[HackMyIP](https://hackmyip.com) is a free, all-in-one privacy toolkit with 35+ tools for checking your IP, testing for leaks, and analyzing your online privacy. Everything runs on Cloudflare's edge network. No signup, no API key, no tracking.
+[HackMyIP](https://hackmyip.com) is a free, all-in-one privacy toolkit with 35 tools for checking your IP, testing for leaks, and analyzing your online privacy. Everything runs on Cloudflare's edge network. No signup, no API key, no tracking.
 
 One place instead of juggling HaveIBeenPwned + DNSLeakTest + BrowserLeaks + WhatIsMyIP + ipleak.net.
 
@@ -97,7 +97,7 @@ Free API with no key required. Use directly or via the npm client.
 npm install hackmyip
 ```
 
-### Quick Start
+### Quick Start (ESM)
 
 ```javascript
 import hackmyip from 'hackmyip';
@@ -121,6 +121,16 @@ const score = await hackmyip.getPrivacyScore();
 console.log(score.privacy.grade); // "A"
 ```
 
+### Quick Start (CommonJS)
+
+```javascript
+const { getMyIP, lookup, checkBreach, getPrivacyScore } = require('hackmyip');
+
+const me = await getMyIP();
+console.log(me.ip);              // "203.0.113.42"
+console.log(me.privacy.grade);   // "A"
+```
+
 ### API Endpoints
 
 | Endpoint | Description |
@@ -134,7 +144,7 @@ Full docs: [hackmyip.com/api](https://hackmyip.com/api)
 
 ## Why HackMyIP?
 
-- **35+ tools** in one place (vs 1-2 per competitor)
+- **35 tools** in one place (vs 1-2 per competitor)
 - **No signup, no API key** for anything
 - **Fast** — runs on Cloudflare's global edge network
 - **Privacy-first** — we don't log or store your queries
@@ -145,7 +155,7 @@ Full docs: [hackmyip.com/api](https://hackmyip.com/api)
 
 | Tool | Tools | Free | No Signup | Self-Hosted | Edge Speed |
 |------|-------|------|-----------|-------------|------------|
-| **HackMyIP** | **35+** | **Yes** | **Yes** | No | **Yes (CF)** |
+| **HackMyIP** | **35** | **Yes** | **Yes** | No | **Yes (CF)** |
 | ipleak.net | 5 | Yes | Yes | No | No |
 | browserleaks.com | 8 | Yes | Yes | No | No |
 | whatismyipaddress.com | 3 | Yes | Yes | No | No |

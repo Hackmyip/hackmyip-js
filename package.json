@@ -16,16 +16,31 @@
     "vpn",
     "security",
     "fingerprint",
-    "hackmyip"
+    "hackmyip",
+    "api-client",
+    "node",
+    "javascript",
+    "typescript",
+    "ip-lookup"
   ],
   "author": "HackMyIP <hello@hackmyip.com>",
   "license": "MIT",
   "homepage": "https://hackmyip.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hackmyip/hackmyip-js"
+    "url": "git+https://github.com/hackmyip/hackmyip-js.git"
   },
   "bugs": {
     "url": "https://github.com/hackmyip/hackmyip-js/issues"
+  },
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
