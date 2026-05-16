@@ -4,8 +4,8 @@ declare module 'hackmyip' {
     region: string;
     country: string;
     continent: string;
-    latitude: string | null;
-    longitude: string | null;
+    latitude: string | number | null;
+    longitude: string | number | null;
     timezone: string;
     postal_code: string;
   }
@@ -13,6 +13,7 @@ declare module 'hackmyip' {
   interface Network {
     asn: number;
     isp: string;
+    org?: string;
     connection_type?: string;
     tls_version?: string;
   }
@@ -26,6 +27,9 @@ declare module 'hackmyip' {
     is_vpn: boolean;
     is_datacenter: boolean;
     is_residential: boolean;
+    hosting?: boolean;
+    proxy?: boolean;
+    mobile?: boolean;
   }
 
   interface IPData {
@@ -41,6 +45,11 @@ declare module 'hackmyip' {
     ip: string;
     location: Location;
     network: Network;
+    privacy?: {
+      hosting?: boolean;
+      proxy?: boolean;
+      mobile?: boolean;
+    };
   }
 
   interface RiskInfo {
@@ -67,7 +76,7 @@ declare module 'hackmyip' {
   interface ScoreData {
     ip: string;
     location: { city: string; country: string; timezone: string };
-    network: { isp: string; asn: number; tls_version: string };
+    network: { isp: string; asn: number; org?: string; tls_version?: string };
     privacy: Privacy;
     ipv6: boolean;
   }
@@ -76,4 +85,12 @@ declare module 'hackmyip' {
   export function lookup(ip: string): Promise<LookupData>;
   export function checkBreach(email: string): Promise<BreachData>;
   export function getPrivacyScore(): Promise<ScoreData>;
+
+  const hackmyip: {
+    getMyIP: typeof getMyIP;
+    lookup: typeof lookup;
+    checkBreach: typeof checkBreach;
+    getPrivacyScore: typeof getPrivacyScore;
+  };
+  export default hackmyip;
 }

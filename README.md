@@ -147,19 +147,19 @@ Full docs: [hackmyip.com/api](https://hackmyip.com/api)
 - **35 tools** in one place (vs 1-2 per competitor)
 - **No signup, no API key** for anything
 - **Fast** — runs on Cloudflare's global edge network
-- **Privacy-first** — we don't log or store your queries
+- **Privacy-first** — built to minimize data retention, runs on Cloudflare's edge with no persistent logging
 - **Multi-language** — English, 简体中文, 繁體中文
 - **Free** — no premium tier, no usage limits
 
 ## Alternatives
 
-| Tool | Tools | Free | No Signup | Self-Hosted | Edge Speed |
-|------|-------|------|-----------|-------------|------------|
-| **HackMyIP** | **35** | **Yes** | **Yes** | No | **Yes (CF)** |
+| Tool | Tools | Free | No Signup | Edge Speed | API |
+|------|-------|------|-----------|------------|-----|
+| **HackMyIP** | **35** | **Yes** | **Yes** | **Yes (CF)** | **Yes** |
 | ipleak.net | 5 | Yes | Yes | No | No |
 | browserleaks.com | 8 | Yes | Yes | No | No |
 | whatismyipaddress.com | 3 | Yes | Yes | No | No |
-| jason5ng32/MyIP | 15 | Yes | Yes | Yes | No |
+| jason5ng32/MyIP | 15 | Yes | Yes | No | No |
 
 ## Contributing
 

@@ -61,7 +61,7 @@ async function lookup(ip) {
  * console.log(data.services);       // ["Adobe", "LinkedIn", ...]
  */
 async function checkBreach(email) {
-  if (!email || !email.includes('@')) throw new Error('Valid email address is required');
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) throw new Error('Valid email address is required');
   return request('/breach', { email });
 }
 
