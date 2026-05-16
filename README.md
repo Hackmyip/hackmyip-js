@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://hackmyip.com">
-    <img src="https://hackmyip.com/og-preview.jpg" alt="HackMyIP" width="600">
+    <img src="assets/hero.png" alt="HackMyIP" width="600">
   </a>
 </p>
 
@@ -13,12 +13,12 @@
 <p align="center">
   <a href="https://hackmyip.com">Website</a> ·
   <a href="https://hackmyip.com/api">API Docs</a> ·
-  <a href="https://www.npmjs.com/package/hackmyip">npm Package</a>
+  <a href="#api">API Docs</a>
 </p>
 
 <p align="center">
   <a href="https://hackmyip.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fhackmyip.com&up_message=online&label=hackmyip.com" alt="Website"></a>
-  <a href="https://www.npmjs.com/package/hackmyip"><img src="https://img.shields.io/npm/v/hackmyip" alt="npm"></a>
+  
   <a href="https://github.com/hackmyip/hackmyip-js/stargazers"><img src="https://img.shields.io/github/stars/hackmyip/hackmyip-js" alt="Stars"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
 </p>
