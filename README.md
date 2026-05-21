@@ -17,6 +17,8 @@
 </p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/hackmyip"><img src="https://img.shields.io/npm/v/hackmyip" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/hackmyip"><img src="https://img.shields.io/npm/dm/hackmyip" alt="npm downloads"></a>
   <a href="https://github.com/hackmyip/hackmyip-js/actions/workflows/ci.yml"><img src="https://github.com/hackmyip/hackmyip-js/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://hackmyip.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fhackmyip.com&up_message=online&label=hackmyip.com" alt="Website"></a>
   <a href="https://github.com/hackmyip/hackmyip-js/stargazers"><img src="https://img.shields.io/github/stars/hackmyip/hackmyip-js" alt="Stars"></a>
