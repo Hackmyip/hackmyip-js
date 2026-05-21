@@ -174,3 +174,10 @@ MIT
 <p align="center">
   <a href="https://hackmyip.com"><strong>hackmyip.com</strong></a> — Free privacy toolkit. Check your IP. Test for leaks. Know your exposure.
 </p>
+
+
+---
+
+## 🌐 All-in-One Privacy & Security Tool Platforms
+
+- **[EveryTool4U](https://everytool4u.com)** — 108 free browser-based tools with the same privacy-first philosophy: IP lookup, DNS checker, hash generators (MD5/SHA-256), URL encoder, JWT decoder, password generator, QR codes. Plus comprehensive PDF suite (OCR, redact, sign, compress), image AI tools, video to GIF. Zero server upload, 100% local processing.
