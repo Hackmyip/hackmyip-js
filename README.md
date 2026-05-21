@@ -109,38 +109,56 @@ console.log(me.privacy.grade);   // "A"
 
 // Look up any IP
 const data = await hackmyip.lookup("8.8.8.8");
-console.log(data.location.city); // "Mountain View"
+console.log(data.location.city); // "Ashburn"
 
 // Check email breaches
 const breach = await hackmyip.checkBreach("user@example.com");
 console.log(breach.breaches);    // 13
 console.log(breach.risk.level);  // "high"
 
-// Get privacy score
-const score = await hackmyip.getPrivacyScore();
-console.log(score.privacy.grade); // "A"
+// DNS records for a domain
+const dns = await hackmyip.dnsLookup("github.com", "MX");
+console.log(dns.records);         // [{ name, type, TTL, data }, ...]
+
+// WHOIS / RDAP registration data
+const who = await hackmyip.whois("example.com");
+console.log(who.registrar, who.expiration_date);
+
+// Is a site up or down?
+const site = await hackmyip.checkSite("example.com");
+console.log(site.is_up, site.response_time_ms);
 ```
 
 ### Quick Start (CommonJS)
 
 ```javascript
-const { getMyIP, lookup, checkBreach, getPrivacyScore } = require('hackmyip');
+const { getMyIP, lookup, dnsLookup, checkBlacklist } = require('hackmyip');
 
 const me = await getMyIP();
-console.log(me.ip);              // "203.0.113.42"
-console.log(me.privacy.grade);   // "A"
+console.log(me.ip, me.privacy.grade);
+
+const bl = await checkBlacklist("203.0.113.42");
+console.log(bl.status);          // "CLEAN" | "WARNING" | "BLACKLISTED"
 ```
 
-### API Endpoints
+### Methods
 
-| Endpoint | Description |
-|----------|-------------|
-| `GET /api/ip` | Your IP + geolocation + privacy score |
-| `GET /api/lookup?ip=x.x.x.x` | Look up any IP address |
-| `GET /api/breach?email=user@example.com` | Email breach check |
-| `GET /api/score` | IP cleanliness + VPN detection |
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `getMyIP()` | `GET /api/ip` | Your IP + geolocation + privacy score |
+| `lookup(ip)` | `GET /api/lookup` | Geolocation + network for any IP |
+| `getPrivacyScore()` | `GET /api/score` | IP cleanliness + VPN/datacenter detection |
+| `checkBreach(email)` | `GET /api/breach` | Email breach check + password exposure |
+| `dnsLookup(domain, type?)` | `GET /api/dns` | DNS records (A, AAAA, MX, NS, TXT, …) |
+| `whois(domain)` | `GET /api/whois` | WHOIS / RDAP registration data |
+| `reverseDns(ip)` | `GET /api/rdns` | Reverse DNS (PTR) hostname |
+| `checkBlacklist(ip)` | `GET /api/blacklist` | DNSBL reputation across 12 blocklists |
+| `checkSite(url)` | `GET /api/down` | Is a site up or down + response time |
+| `bulkLookup(ips)` | `POST /api/bulk` | Look up up to 50 IPs at once |
 
-Full docs: [hackmyip.com/api](https://hackmyip.com/api)
+Every method returns the `data` payload directly and throws an `Error` on failure. Full docs: [hackmyip.com/api](https://hackmyip.com/api)
+
+> The npm client covers the JSON API tools. Browser-based tools on the site (WebRTC/DNS leak tests, browser fingerprint, speed test) require a real browser and aren't part of the Node client.
 
 ## Why HackMyIP?
 
