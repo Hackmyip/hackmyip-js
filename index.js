@@ -7,6 +7,7 @@
  */
 
 const BASE_URL = 'https://hackmyip.com/api';
+const REQUEST_TIMEOUT_MS = 15000;
 
 async function request(endpoint, params = {}, { method = 'GET', body } = {}) {
   const query = Object.entries(params)
@@ -14,12 +15,18 @@ async function request(endpoint, params = {}, { method = 'GET', body } = {}) {
     .map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`)
     .join('&');
   const url = `${BASE_URL}${endpoint}${query ? '?' + query : ''}`;
-  const opts = { method };
+  const opts = { method, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) };
   if (body !== undefined) {
     opts.headers = { 'Content-Type': 'application/json' };
     opts.body = JSON.stringify(body);
   }
-  const resp = await fetch(url, opts);
+  let resp;
+  try {
+    resp = await fetch(url, opts);
+  } catch (e) {
+    if (e && e.name === 'TimeoutError') throw new Error(`Request timed out after ${REQUEST_TIMEOUT_MS}ms`);
+    throw new Error(`Network request failed: ${e.message}`);
+  }
   if (!resp.ok) {
     const errBody = await resp.json().catch(() => ({}));
     throw new Error(errBody.error || `API request failed with status ${resp.status}`);
