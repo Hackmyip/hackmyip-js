@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2026-06-30
+
+### Added
+- `npx hackmyip` CLI (`bin/cli.js`) — run the toolkit straight from the terminal, no install and no API key
+  - Commands: `hackmyip` (summary), `ip`, `json`, `proxy`, `lookup <ip>`, `dns <domain> [type]`, `blacklist <ip>`, `whois <domain>`, `help`
+  - Dependency-free (Node 18+ global fetch), colorized on a TTY, auto-plain when piped or `NO_COLOR` is set, non-zero exit on error
+- Terminal demo (`assets/demo.svg`) embedded at the top of the README
+- README "Use it from your terminal (curl)" and "CLI (`npx hackmyip`)" sections documenting the curl toolkit and CLI
+
 ## [1.1.0] - 2026-05-21
 
 ### Added

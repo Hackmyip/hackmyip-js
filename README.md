@@ -11,6 +11,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/demo.svg" alt="Terminal demo: curl hackmyip.com and npx hackmyip showing IP, location, network, and the CLI command menu" width="700">
+</p>
+
+<p align="center">
   <a href="https://hackmyip.com">Website</a> ·
   <a href="https://hackmyip.com/api">API Docs</a> ·
   <a href="https://www.npmjs.com/package/hackmyip">npm</a>
@@ -106,6 +110,33 @@ curl hackmyip.com/help       # full command list
 ```
 
 Full command reference: [hackmyip.com/cli](https://hackmyip.com/cli)
+
+## CLI (`npx hackmyip`)
+
+Prefer Node over curl? The same toolkit ships as a zero-config CLI. No install, no key — just run it:
+
+```bash
+npx hackmyip                  # your IP + location + network (summary)
+npx hackmyip ip               # your public IP only (raw, pipe-friendly)
+npx hackmyip json             # full JSON (IP + city + country + asn + org)
+npx hackmyip proxy            # VPN / proxy / datacenter verdict for your IP
+npx hackmyip lookup 8.8.8.8   # geolocation + network for any IP
+npx hackmyip dns github.com MX  # DNS records (A, AAAA, MX, NS, TXT, ...)
+npx hackmyip blacklist 8.8.8.8  # DNSBL reputation across major blocklists
+npx hackmyip whois example.com  # WHOIS / RDAP registration data
+npx hackmyip help             # full command list
+```
+
+Example:
+
+```text
+$ npx hackmyip
+IP        203.0.113.7
+Location  Amsterdam, NL
+Network   AS64500  Example Telecom B.V.
+```
+
+Dependency-free, Node 18+, colorized output on a TTY (auto-plain when piped or `NO_COLOR` is set). It calls the same public `hackmyip.com` API the npm client uses.
 
 ## API
 

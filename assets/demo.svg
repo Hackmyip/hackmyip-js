@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-label="Terminal demo: running curl hackmyip.com and the npx hackmyip CLI">
+  <title>HackMyIP terminal demo</title>
+  <desc>A terminal showing curl hackmyip.com returning a sample IP, location and network, plus the npx hackmyip CLI command menu. Sample data only.</desc>
+
+  <defs>
+    <style>
+      .mono { font-family: "SFMono-Regular", "JetBrains Mono", Consolas, "Liberation Mono", Menlo, monospace; }
+      .t  { font-size: 14px; }
+      .dim    { fill: #6b7280; }
+      .fg     { fill: #d6dee2; }
+      .teal   { fill: #00d4aa; }
+      .white  { fill: #f4f7f8; }
+      .yellow { fill: #d9b54a; }
+      .prompt { fill: #00d4aa; font-weight: 700; }
+    </style>
+    <clipPath id="round"><rect x="8" y="8" width="744" height="414" rx="12"/></clipPath>
+  </defs>
+
+  <!-- window -->
+  <g clip-path="url(#round)">
+    <rect x="8" y="8" width="744" height="414" fill="#0a0a0f"/>
+    <!-- title bar -->
+    <rect x="8" y="8" width="744" height="38" fill="#15151d"/>
+    <circle cx="32" cy="27" r="6" fill="#ff5f56"/>
+    <circle cx="54" cy="27" r="6" fill="#ffbd2e"/>
+    <circle cx="76" cy="27" r="6" fill="#27c93f"/>
+    <text x="380" y="32" text-anchor="middle" class="mono dim" font-size="13">hackmyip.com — terminal</text>
+  </g>
+  <rect x="8.5" y="8.5" width="743" height="413" rx="12" fill="none" stroke="#1f2430" stroke-width="1"/>
+
+  <!-- body -->
+  <g class="mono t">
+    <!-- curl your IP -->
+    <text x="28" y="80"><tspan class="prompt">$ </tspan><tspan class="fg">curl hackmyip.com</tspan></text>
+
+    <text x="28" y="106"><tspan class="dim">IP       </tspan><tspan class="teal" font-weight="700">203.0.113.7</tspan></text>
+    <text x="28" y="128"><tspan class="dim">Location </tspan><tspan class="fg">Amsterdam, NL</tspan></text>
+    <text x="28" y="150"><tspan class="dim">Network  </tspan><tspan class="fg">AS64500  Example Telecom B.V.</tspan></text>
+    <text x="28" y="172"><tspan class="dim">Privacy  </tspan><tspan class="white" font-weight="700">A</tspan><tspan class="fg">  ·  residential  ·  no VPN/proxy</tspan></text>
+
+    <!-- npx CLI -->
+    <text x="28" y="216"><tspan class="prompt">$ </tspan><tspan class="fg">npx hackmyip proxy</tspan></text>
+    <text x="28" y="242"><tspan class="dim">proxy:   </tspan><tspan class="teal">no</tspan></text>
+    <text x="28" y="264"><tspan class="dim">type:    </tspan><tspan class="fg">residential/other</tspan></text>
+    <text x="28" y="286"><tspan class="dim">signal:  </tspan><tspan class="fg">IP is not on a known datacenter/hosting ASN</tspan></text>
+
+    <!-- menu -->
+    <text x="28" y="330"><tspan class="prompt">$ </tspan><tspan class="fg">npx hackmyip help</tspan></text>
+    <text x="28" y="356"><tspan class="teal">ip</tspan><tspan class="dim">  ·  </tspan><tspan class="teal">json</tspan><tspan class="dim">  ·  </tspan><tspan class="teal">lookup &lt;ip&gt;</tspan><tspan class="dim">  ·  </tspan><tspan class="teal">dns &lt;domain&gt;</tspan></text>
+    <text x="28" y="378"><tspan class="teal">blacklist &lt;ip&gt;</tspan><tspan class="dim">  ·  </tspan><tspan class="teal">whois &lt;domain&gt;</tspan><tspan class="dim">  ·  </tspan><tspan class="teal">proxy</tspan></text>
+
+    <text x="28" y="404"><tspan class="prompt">$ </tspan></text>
+    <rect x="44" y="392" width="9" height="16" fill="#f4f7f8"/>
+  </g>
+</svg>
