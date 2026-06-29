@@ -89,6 +89,24 @@ One place instead of juggling HaveIBeenPwned + DNSLeakTest + BrowserLeaks + What
 ### IP by Country
 Browse IP infrastructure for [190+ countries](https://hackmyip.com/ip) with privacy scores, ISP data, and city-level pages.
 
+## Use it from your terminal (curl)
+
+Every core lookup is curl-able. No signup, no API key. The site serves clean text/JSON to CLI user-agents and the full site to browsers:
+
+```bash
+curl hackmyip.com            # your IP + location + network
+curl hackmyip.com/ip         # raw IP only — pipe-friendly: IP=$(curl -s hackmyip.com/ip)
+curl hackmyip.com/json       # IP + city + country + ASN + org (JSON)
+curl hackmyip.com/headers    # your request headers
+curl hackmyip.com/ua         # your User-Agent
+curl hackmyip.com/asn        # your ASN + ISP
+curl hackmyip.com/proxy      # VPN / proxy / datacenter verdict
+curl hackmyip.com/rdns       # reverse DNS (PTR) of your IP
+curl hackmyip.com/help       # full command list
+```
+
+Full command reference: [hackmyip.com/cli](https://hackmyip.com/cli)
+
 ## API
 
 Free API with no key required. Use directly or via the npm client.
