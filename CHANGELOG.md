@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Changed
+- README: synced the tool count from "35 tools" to "50+ tools" to match the live site (llms.txt, /tools, and ai-plugin.json all report 50+)
+
 ## [1.2.0] - 2026-06-30
 
 ### Added

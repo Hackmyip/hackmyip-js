@@ -33,7 +33,7 @@
 
 ## What is HackMyIP?
 
-[HackMyIP](https://hackmyip.com) is a free, all-in-one privacy toolkit with 35 tools for checking your IP, testing for leaks, and analyzing your online privacy. Everything runs on Cloudflare's edge network. No signup, no API key, no tracking.
+[HackMyIP](https://hackmyip.com) is a free, all-in-one privacy toolkit with 50+ tools for checking your IP, testing for leaks, and analyzing your online privacy. Everything runs on Cloudflare's edge network. No signup, no API key, no tracking.
 
 One place instead of juggling HaveIBeenPwned + DNSLeakTest + BrowserLeaks + WhatIsMyIP + ipleak.net.
 
@@ -213,7 +213,7 @@ Every method returns the `data` payload directly and throws an `Error` on failur
 
 ## Why HackMyIP?
 
-- **35 tools** in one place (vs 1-2 per competitor)
+- **50+ tools** in one place (vs 1-2 per competitor)
 - **No signup, no API key** for anything
 - **Fast** — runs on Cloudflare's global edge network
 - **Privacy-first** — built to minimize data retention, runs on Cloudflare's edge with no persistent logging
