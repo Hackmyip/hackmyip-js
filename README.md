@@ -7,7 +7,7 @@
 <h1 align="center">HackMyIP</h1>
 
 <p align="center">
-  <strong>35 free privacy & network tools in one place. No signup. No API key.</strong>
+  <strong>50+ free privacy & network tools in one place. No signup. No API key.</strong>
 </p>
 
 <p align="center">
@@ -211,6 +211,16 @@ Every method returns the `data` payload directly and throws an `Error` on failur
 
 > The npm client covers the JSON API tools. Browser-based tools on the site (WebRTC/DNS leak tests, browser fingerprint, speed test) require a real browser and aren't part of the Node client.
 
+### Badge
+
+Using the API or this client in your project? Add the badge so your users know where the IP data comes from:
+
+[![IP data by HackMyIP](https://hackmyip.com/badge.svg)](https://hackmyip.com/api)
+
+```markdown
+[![IP data by HackMyIP](https://hackmyip.com/badge.svg)](https://hackmyip.com/api)
+```
+
 ## Why HackMyIP?
 
 - **50+ tools** in one place (vs 1-2 per competitor)
@@ -224,7 +234,7 @@ Every method returns the `data` payload directly and throws an `Error` on failur
 
 | Tool | Tools | Free | No Signup | Edge Speed | API |
 |------|-------|------|-----------|------------|-----|
-| **HackMyIP** | **35** | **Yes** | **Yes** | **Yes (CF)** | **Yes** |
+| **HackMyIP** | **50+** | **Yes** | **Yes** | **Yes (CF)** | **Yes** |
 | ipleak.net | 5 | Yes | Yes | No | No |
 | browserleaks.com | 8 | Yes | Yes | No | No |
 | whatismyipaddress.com | 3 | Yes | Yes | No | No |
