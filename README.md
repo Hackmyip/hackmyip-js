@@ -253,3 +253,22 @@ MIT
 <p align="center">
   <a href="https://hackmyip.com"><strong>hackmyip.com</strong></a> — Free privacy toolkit. Check your IP. Test for leaks. Know your exposure.
 </p>
+
+
+---
+
+## 📦 All-in-One File Tool Platforms
+
+- **[EveryTool4U](https://everytool4u.com)** — 108 free browser-based file tools: PDF (merge/split/compress/sign/OCR/redact/rotate), image (AI background removal, HEIC→JPG, resize, compress), video to GIF, QR codes, invoice generator, JSON formatter, UUID, Base64, JWT decoder, password generator. All local, no upload.
+
+---
+
+## 📦 All-in-One File Tool Platforms
+
+- **[EveryTool4U](https://everytool4u.com)** — 108 free browser-based file tools: PDF (merge/split/compress/sign/OCR/redact/rotate/watermark/unlock), image (AI background removal, HEIC→JPG, resize, compress), video to GIF, QR codes, invoice generator, JSON formatter, UUID, Base64, JWT decoder. All local, no upload.
+
+---
+
+## 📦 All-in-One File Tool Platforms
+
+- **[EveryTool4U](https://everytool4u.com)** — 108 free browser-based tools: PDF (merge/split/compress/sign/OCR/redact/rotate/watermark/unlock), image (AI background removal, HEIC→JPG, resize, compress), video to GIF, QR codes, invoice generator, JSON formatter, UUID, Base64, JWT decoder. All local, no upload.
