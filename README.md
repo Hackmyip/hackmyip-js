@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://hackmyip.com">
+  <a href="https://hackmyip.com?utm_source=github&utm_medium=readme&utm_content=intro">
     <img src="assets/hero.png" alt="HackMyIP" width="600">
   </a>
 </p>
@@ -15,8 +15,8 @@
 </p>
 
 <p align="center">
-  <a href="https://hackmyip.com">Website</a> ·
-  <a href="https://hackmyip.com/api">API Docs</a> ·
+  <a href="https://hackmyip.com?utm_source=github&utm_medium=readme&utm_content=intro">Website</a> ·
+  <a href="https://hackmyip.com/api?utm_source=github&utm_medium=readme&utm_content=intro">API Docs</a> ·
   <a href="https://www.npmjs.com/package/hackmyip">npm</a>
 </p>
 
@@ -24,7 +24,7 @@
   <a href="https://www.npmjs.com/package/hackmyip"><img src="https://img.shields.io/npm/v/hackmyip" alt="npm version"></a>
   <a href="https://www.npmjs.com/package/hackmyip"><img src="https://img.shields.io/npm/dm/hackmyip" alt="npm downloads"></a>
   <a href="https://github.com/hackmyip/hackmyip-js/actions/workflows/ci.yml"><img src="https://github.com/hackmyip/hackmyip-js/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://hackmyip.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fhackmyip.com&up_message=online&label=hackmyip.com" alt="Website"></a>
+  <a href="https://hackmyip.com?utm_source=github&utm_medium=readme&utm_content=intro"><img src="https://img.shields.io/website?url=https%3A%2F%2Fhackmyip.com&up_message=online&label=hackmyip.com" alt="Website"></a>
   <a href="https://github.com/hackmyip/hackmyip-js/stargazers"><img src="https://img.shields.io/github/stars/hackmyip/hackmyip-js" alt="Stars"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"></a>
 </p>
@@ -33,7 +33,7 @@
 
 ## What is HackMyIP?
 
-[HackMyIP](https://hackmyip.com) is a free, all-in-one privacy toolkit with 50+ tools for checking your IP, testing for leaks, and analyzing your online privacy. Everything runs on Cloudflare's edge network. No signup, no API key, no tracking.
+[HackMyIP](https://hackmyip.com?utm_source=github&utm_medium=readme&utm_content=what-is-hackmyip) is a free, all-in-one privacy toolkit with 50+ tools for checking your IP, testing for leaks, and analyzing your online privacy. Everything runs on Cloudflare's edge network. No signup, no API key, no tracking.
 
 One place instead of juggling HaveIBeenPwned + DNSLeakTest + BrowserLeaks + WhatIsMyIP + ipleak.net.
 
@@ -42,56 +42,56 @@ One place instead of juggling HaveIBeenPwned + DNSLeakTest + BrowserLeaks + What
 ### Privacy & Security
 | Tool | Description | Link |
 |------|-------------|------|
-| IP Lookup | Your IP, location, ISP, and privacy grade | [Try it](https://hackmyip.com) |
-| Email Breach Checker | Check if your email was leaked in data breaches | [Try it](https://hackmyip.com/breach) |
-| Privacy Checkup | Full privacy audit with letter grade | [Try it](https://hackmyip.com/checkup) |
-| DNS Leak Test | Check if your DNS queries are leaking | [Try it](https://hackmyip.com/dns-leak) |
-| WebRTC Leak Test | Check if WebRTC is exposing your real IP | [Try it](https://hackmyip.com/webrtc) |
-| Browser Fingerprint | See how unique and trackable your browser is | [Try it](https://hackmyip.com/fingerprint) |
-| Torrent Leak Test | Check if torrents expose your real IP | [Try it](https://hackmyip.com/torrent-leak) |
-| Proxy/VPN Detector | Detect if an IP is a proxy, VPN, or datacenter | [Try it](https://hackmyip.com/proxy) |
-| SSL/TLS Checker | Check a domain's SSL certificate and security | [Try it](https://hackmyip.com/ssl) |
-| Password Strength | Test how strong your password is | [Try it](https://hackmyip.com/password) |
-| Password Generator | Generate secure passwords | [Try it](https://hackmyip.com/generate) |
-| IP Blacklist Check | Check if an IP is on any blacklists | [Try it](https://hackmyip.com/blacklist) |
+| IP Lookup | Your IP, location, ISP, and privacy grade | [Try it](https://hackmyip.com?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
+| Email Breach Checker | Check if your email was leaked in data breaches | [Try it](https://hackmyip.com/breach?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
+| Privacy Checkup | Full privacy audit with letter grade | [Try it](https://hackmyip.com/checkup?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
+| DNS Leak Test | Check if your DNS queries are leaking | [Try it](https://hackmyip.com/dns-leak?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
+| WebRTC Leak Test | Check if WebRTC is exposing your real IP | [Try it](https://hackmyip.com/webrtc?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
+| Browser Fingerprint | See how unique and trackable your browser is | [Try it](https://hackmyip.com/fingerprint?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
+| Torrent Leak Test | Check if torrents expose your real IP | [Try it](https://hackmyip.com/torrent-leak?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
+| Proxy/VPN Detector | Detect if an IP is a proxy, VPN, or datacenter | [Try it](https://hackmyip.com/proxy?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
+| SSL/TLS Checker | Check a domain's SSL certificate and security | [Try it](https://hackmyip.com/ssl?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
+| Password Strength | Test how strong your password is | [Try it](https://hackmyip.com/password?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
+| Password Generator | Generate secure passwords | [Try it](https://hackmyip.com/generate?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
+| IP Blacklist Check | Check if an IP is on any blacklists | [Try it](https://hackmyip.com/blacklist?utm_source=github&utm_medium=readme&utm_content=privacy-security) |
 
 ### Network Tools
 | Tool | Description | Link |
 |------|-------------|------|
-| Speed Test | Test your connection speed | [Try it](https://hackmyip.com/speed) |
-| DNS Lookup | Query DNS records for any domain | [Try it](https://hackmyip.com/dns) |
-| WHOIS Lookup | Domain and IP registration data | [Try it](https://hackmyip.com/whois) |
-| Port Scanner | Check open ports on your connection | [Try it](https://hackmyip.com/ports) |
-| Traceroute | Trace the path to any destination | [Try it](https://hackmyip.com/traceroute) |
-| Reverse DNS | Find hostnames for any IP | [Try it](https://hackmyip.com/rdns) |
-| Subnet Calculator | Calculate CIDR ranges and subnets | [Try it](https://hackmyip.com/subnet) |
-| CIDR Calculator | IP range calculations | [Try it](https://hackmyip.com/cidr) |
-| Bulk IP Lookup | Look up multiple IPs at once | [Try it](https://hackmyip.com/bulk-lookup) |
-| Email Header Analyzer | Parse and analyze email headers | [Try it](https://hackmyip.com/email-headers) |
-| Is It Down? | Check if a service is down right now | [Try it](https://hackmyip.com/down) |
-| Headers Check | View your HTTP request headers | [Try it](https://hackmyip.com/headers) |
+| Speed Test | Test your connection speed | [Try it](https://hackmyip.com/speed?utm_source=github&utm_medium=readme&utm_content=network-tools) |
+| DNS Lookup | Query DNS records for any domain | [Try it](https://hackmyip.com/dns?utm_source=github&utm_medium=readme&utm_content=network-tools) |
+| WHOIS Lookup | Domain and IP registration data | [Try it](https://hackmyip.com/whois?utm_source=github&utm_medium=readme&utm_content=network-tools) |
+| Port Scanner | Check open ports on your connection | [Try it](https://hackmyip.com/ports?utm_source=github&utm_medium=readme&utm_content=network-tools) |
+| Traceroute | Trace the path to any destination | [Try it](https://hackmyip.com/traceroute?utm_source=github&utm_medium=readme&utm_content=network-tools) |
+| Reverse DNS | Find hostnames for any IP | [Try it](https://hackmyip.com/rdns?utm_source=github&utm_medium=readme&utm_content=network-tools) |
+| Subnet Calculator | Calculate CIDR ranges and subnets | [Try it](https://hackmyip.com/subnet?utm_source=github&utm_medium=readme&utm_content=network-tools) |
+| CIDR Calculator | IP range calculations | [Try it](https://hackmyip.com/cidr?utm_source=github&utm_medium=readme&utm_content=network-tools) |
+| Bulk IP Lookup | Look up multiple IPs at once | [Try it](https://hackmyip.com/bulk-lookup?utm_source=github&utm_medium=readme&utm_content=network-tools) |
+| Email Header Analyzer | Parse and analyze email headers | [Try it](https://hackmyip.com/email-headers?utm_source=github&utm_medium=readme&utm_content=network-tools) |
+| Is It Down? | Check if a service is down right now | [Try it](https://hackmyip.com/down?utm_source=github&utm_medium=readme&utm_content=network-tools) |
+| Headers Check | View your HTTP request headers | [Try it](https://hackmyip.com/headers?utm_source=github&utm_medium=readme&utm_content=network-tools) |
 
 ### Browser & Device Info
 | Tool | Description | Link |
 |------|-------------|------|
-| Browser Info | Detailed browser capabilities | [Try it](https://hackmyip.com/browser) |
-| Screen Info | Display resolution and device info | [Try it](https://hackmyip.com/screen) |
-| User Agent Parser | Parse and decode user agent strings | [Try it](https://hackmyip.com/user-agent) |
-| Timezone Test | Detect timezone discrepancies | [Try it](https://hackmyip.com/timezone-test) |
-| Language Detection | Browser language settings | [Try it](https://hackmyip.com/language) |
-| Location Test | Geolocation API test | [Try it](https://hackmyip.com/location) |
+| Browser Info | Detailed browser capabilities | [Try it](https://hackmyip.com/browser?utm_source=github&utm_medium=readme&utm_content=browser-device-info) |
+| Screen Info | Display resolution and device info | [Try it](https://hackmyip.com/screen?utm_source=github&utm_medium=readme&utm_content=browser-device-info) |
+| User Agent Parser | Parse and decode user agent strings | [Try it](https://hackmyip.com/user-agent?utm_source=github&utm_medium=readme&utm_content=browser-device-info) |
+| Timezone Test | Detect timezone discrepancies | [Try it](https://hackmyip.com/timezone-test?utm_source=github&utm_medium=readme&utm_content=browser-device-info) |
+| Language Detection | Browser language settings | [Try it](https://hackmyip.com/language?utm_source=github&utm_medium=readme&utm_content=browser-device-info) |
+| Location Test | Geolocation API test | [Try it](https://hackmyip.com/location?utm_source=github&utm_medium=readme&utm_content=browser-device-info) |
 
 ### Developer Utilities
 | Tool | Description | Link |
 |------|-------------|------|
-| Base64 Encode/Decode | Base64 converter | [Try it](https://hackmyip.com/base64) |
-| JSON Formatter | Pretty-print and validate JSON | [Try it](https://hackmyip.com/json) |
-| Hash Generator | MD5, SHA-1, SHA-256 hashing | [Try it](https://hackmyip.com/hash) |
-| URL Encoder | URL encode/decode | [Try it](https://hackmyip.com/url-encode) |
-| QR Code Generator | Generate QR codes | [Try it](https://hackmyip.com/qr) |
+| Base64 Encode/Decode | Base64 converter | [Try it](https://hackmyip.com/base64?utm_source=github&utm_medium=readme&utm_content=developer-utilities) |
+| JSON Formatter | Pretty-print and validate JSON | [Try it](https://hackmyip.com/json?utm_source=github&utm_medium=readme&utm_content=developer-utilities) |
+| Hash Generator | MD5, SHA-1, SHA-256 hashing | [Try it](https://hackmyip.com/hash?utm_source=github&utm_medium=readme&utm_content=developer-utilities) |
+| URL Encoder | URL encode/decode | [Try it](https://hackmyip.com/url-encode?utm_source=github&utm_medium=readme&utm_content=developer-utilities) |
+| QR Code Generator | Generate QR codes | [Try it](https://hackmyip.com/qr?utm_source=github&utm_medium=readme&utm_content=developer-utilities) |
 
 ### IP by Country
-Browse IP infrastructure for [190+ countries](https://hackmyip.com/ip) with privacy scores, ISP data, and city-level pages.
+Browse IP infrastructure for [190+ countries](https://hackmyip.com/ip?utm_source=github&utm_medium=readme&utm_content=ip-by-country) with privacy scores, ISP data, and city-level pages.
 
 ## Use it from your terminal (curl)
 
@@ -109,7 +109,7 @@ curl hackmyip.com/rdns       # reverse DNS (PTR) of your IP
 curl hackmyip.com/help       # full command list
 ```
 
-Full command reference: [hackmyip.com/cli](https://hackmyip.com/cli)
+Full command reference: [hackmyip.com/cli](https://hackmyip.com/cli?utm_source=github&utm_medium=readme&utm_content=use-it-from-your-terminal-cu)
 
 ## CLI (`npx hackmyip`)
 
@@ -207,7 +207,7 @@ console.log(bl.status);          // "CLEAN" | "WARNING" | "BLACKLISTED"
 | `checkSite(url)` | `GET /api/down` | Is a site up or down + response time |
 | `bulkLookup(ips)` | `POST /api/bulk` | Look up up to 50 IPs at once |
 
-Every method returns the `data` payload directly and throws an `Error` on failure. Full docs: [hackmyip.com/api](https://hackmyip.com/api)
+Every method returns the `data` payload directly and throws an `Error` on failure. Full docs: [hackmyip.com/api](https://hackmyip.com/api?utm_source=github&utm_medium=readme&utm_content=methods)
 
 > The npm client covers the JSON API tools. Browser-based tools on the site (WebRTC/DNS leak tests, browser fingerprint, speed test) require a real browser and aren't part of the Node client.
 
@@ -215,7 +215,7 @@ Every method returns the `data` payload directly and throws an `Error` on failur
 
 Using the API or this client in your project? Add the badge so your users know where the IP data comes from:
 
-[![IP data by HackMyIP](https://hackmyip.com/badge.svg)](https://hackmyip.com/api)
+[![IP data by HackMyIP](https://hackmyip.com/badge.svg)](https://hackmyip.com/api?utm_source=github&utm_medium=readme&utm_content=badge)
 
 ```markdown
 [![IP data by HackMyIP](https://hackmyip.com/badge.svg)](https://hackmyip.com/api)
@@ -251,5 +251,5 @@ MIT
 ---
 
 <p align="center">
-  <a href="https://hackmyip.com"><strong>hackmyip.com</strong></a> — Free privacy toolkit. Check your IP. Test for leaks. Know your exposure.
+  <a href="https://hackmyip.com?utm_source=github&utm_medium=readme&utm_content=license"><strong>hackmyip.com</strong></a> — Free privacy toolkit. Check your IP. Test for leaks. Know your exposure.
 </p>
